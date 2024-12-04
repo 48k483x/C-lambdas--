@@ -1,0 +1,62 @@
+version = 1
+
+[[analyzers]]
+name = "cxx"
+
+[[analyzers]]
+name = "docker"
+
+[[analyzers]]
+name = "javascript"
+
+[[analyzers]]
+name = "python"
+
+  [analyzers.meta]
+  runtime_version = "3.x.x"
+
+[[analyzers]]
+name = "sql"
+
+[[analyzers]]
+name = "shell"
+
+[[analyzers]]
+name = "swift"
+
+[[analyzers]]
+name = "rust"
+
+  [analyzers.meta]
+  msrv = "stable"
+
+[[analyzers]]
+name = "php"
+
+[[analyzers]]
+name = "java"
+
+  [analyzers.meta]
+  runtime_version = "11"
+
+[[analyzers]]
+name = "go"
+
+  [analyzers.meta]
+  import_root = "github.com/48k483x/Lambdas-in_C"
+
+[[analyzers]]
+name = "kotlin"
+
+  [analyzers.meta]
+  runtime_version = "1.8"
+  language_version = "1.7"
+
+[[analyzers]]
+name = "ruby"
+
+[[analyzers]]
+name = "secrets"
+
+[[analyzers]]
+name = "csharp"
